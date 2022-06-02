@@ -1,0 +1,201 @@
+# If you have a `resume.json` file, copy it into `_data` and delete this file.
+# If you don't have a JSON Resume you can just edit this YAML file instead.
+# See also: <https://jsonresume.org/>.
+basics:
+  name: "Marianyela Petrizzelli"
+  label: "Postdoctoral researcher"
+  email: "marianyelapetrizzelli@gmail.com"
+  website: "https://mpetrizzelli.github.io"
+  summary: >
+    Marianyela hails from Valencia (Venezuela).
+    She has earned degrees from the University of Trento, Politecnico of Turin and Université Paris-Saclay.
+    Before starting Pied Piper, he worked for Hooli as a part time software developer.
+    While his work focuses on applied information theory,
+    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
+    his non-work interests range widely,
+    everything from quantum computing to chaos theory.
+    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
+    
+  location:
+    address: "26 rue d'Ulm"
+    postalCode: "75005"
+    city: "Paris"
+    countryCode: "FR"
+    region: "France"
+  profiles:
+    - network: "Twitter"
+      username: "Meeery90"
+      url: ""
+    - network: "LinkedIn"
+      username: "Marianyela Petrizzelli"
+      url: ""
+work:
+  - company: "Institut Curie, PSL Research University, INSERM U900, MINES ParisTech, F-75006 Paris, France."
+    position: "Postdoctoral Researcher"
+    website: "https://science.curie.fr/members/marianyela-petrizzelli/"
+    startDate: "September 2019"
+    endDate: "Present"
+    summary: >
+      My mission, within the Systems Computational Biology of cancer group, consists in the analysis of omics data based on biological networks, with application to pedriatic cancer. I am engaged to use and propose novel methodological and computational methods exploiting different omics data sets and bilogical networks to identify cancer signatures and perform patient stratification within the European individualized Pediatric Cancer (iPC) project.
+      I performed advance statistical analysis of large complex omics datasets. I developed methods for multi-level data representation (multi-level networks) and integration (e.g., https://github.com/iPC-project-H2020/ipcrg/tree/master/scripts/data-driven_relational_graphs). I designed pipelines to analyze interaction networks of statistical associations among features (genes) and similarity networksamong observations (patients) (e.g., https://github.com/iPC-project-H2020/ wp4-deliverables/tree/main/D4.1/BMNPPSN). I created pipelines that integrates machine learning and optimization techniques to model cell metabolism. I collaborated with biologists, computational biologists, engineers, and physicists within the H2020-ICT-2018-2 projectindividualized Pediatric Cure project (https://ipc-project.eu/) to design algorithms that address Cancer specific questions. I produced a data catalog containing links to omics datasets linked to Ewing sarcoma (https://sysbio-curie.github.io/EwSOmicsAtlas/index.html).
+    highlights:
+      - "Network reconstruction and analysis,"
+      - "Investigation of potency mesures,"
+      - "Mathematical modeling."
+  - company: "Université Paris Descartes"
+    position: "Junior lecturer and assistant professor"
+    website: "https://u-paris.fr/"
+    startDate: "September 2018"
+    endDate: "Present"
+    summary: >
+        During my teaching activities, I was responsible of the evaluation of my students. I managed class activities to enhance learning. I participate to the internship's jury of my students.
+    highlights:
+      - "Mathematics,"
+      - "Applied statistics,"
+      - "Probability."
+  - company: "IUT d'Orsay"
+    position: "Junior lecturer and assistant professor"
+    website: "https://www.iut-orsay.universite-paris-saclay.fr/"
+    startDate: "September 2016"
+    endDate: "August 2018"
+    summary: >
+    highlights:
+      - "Analysis, trigonometry and complex numbers,"
+      - "Python,"
+      - "Data analysis."
+  - company: "Institut National de Recherche Agronomique – GQE – Le Moulon"
+    position: "Research intern"
+    website: "http://moulon.inra.fr/"
+    startDate: "January 2015"
+    endDate: "April 2015"
+    summary: >
+      Second-year master research internship in population genetics, under the supervision of O. Martin. I developed a general model able to calculate the probabilities of multi-locus genotypes in brother and sister mating. I constructed the associated algorithm in R. I showed a practical application of the model for data imputation.
+    highlights:
+      - "Computational biology,"
+      - "Evolution,"
+      - "Simulations."
+
+education:
+  - institution: "Université Paris-Saclay"
+    area: "Life-science"
+    studyType: "Doctor of Philosophy"
+    startDate: "2015"
+    endDate: "2019"
+    url: "https://www.universite-paris-saclay.fr/"
+    note: >
+        I lead this interdisciplinary project at the interface between mathematics, statistics, and biology. It involved modeling and analysis of complex biological data. I performed multivariate analysis and clustering considering the cross design on which the data was measured. I constructed a unique statistical model and performed clustering analysis to disentangle hybrid vigor and inbreeding depression.
+        I proposed a novel model to predict metabolic fluxes from proteomics data which involved an integrative approach.
+        Keywords: modeling, data analysis, data mining, machine learning, bio-statistics, genetics, big data, hybrid vigor, inbreeding, diallel design, constraint-based model, metabolism, yeast
+    thesis:  "Ph.D. Thesis: “Mathematical modelling and integration of complex biological data: analysis of the heterosis phenomenon in yeast”."
+    supervisor: "Christine Dillmann, Dominique de Vienne."
+    
+  - institution: "Politecnico of Turin"
+    area: "Physics of complex systems"
+    studyType: "Master degree"
+    startDate: "2013"
+    endDate: "2015"
+    url: "http://www.pcs.polito.it/"
+    note: >
+        The course was organized in four semesters: 1° semester in Trieste at SISSA and ICTP. 2° semester in Torino at Politecnico di Torino University. 3° semester in Paris at a consortium involving Universities Pierre et Marie Curie, Paris Diderot, Paris Sud and the Ecole Normale Superieure. 4° semester was devoted to a research stage and to the European multidisciplinary Spring College in Trieste at ICTP.
+    thesis: "Master Thesis: “Multilocus probabilities in the presence of genetic recombination“."
+    supervisor: "Olivier Martin"
+    
+  - institution: "University of Trento"
+    area: "Mathematics"
+    studyType: "Bachelor degree"
+    startDate: "2009"
+    endDate: "2013"
+    url: "https://www.unitn.it/"
+    note: >
+    thesis: "Bachelor Thesis: “On the Preisach model for hysteresis: from the deterministic case to the stochastic one”."
+    supervisor: "Fabio Bagagiolo"
+awards:
+  - title: "Acknowledged in the international review"
+    date: "2018"
+    awarder: "Fiévet J.B., Nidelet T., Dillmann C. and de Vienne D. Heterosis Is a Systemic Property Emerging From Non-linear Genotype-Phenotype Relationships: Evidence From in Vitro Genetics and Computer Simulations."
+    url: "https://www.frontiersin.org/articles/10.3389/fgene.2018.00159/full"
+  - title: "Acknowledged in the international review"
+    date: "2018"
+    awarder: "Raffoux X., Bourge M., Dumas F., Martin O.C. and  Falque M. Role of Cis, Trans, and Inbreeding Effects on Meiotic Recombination in Saccharomyces cerevisiae."
+    url: "https://academic.oup.com/genetics/article/210/4/1213/5931070"
+  - title: "KITP Graduate Fellow "
+    date: "Fall 2017"
+    awarder: "Kavli Institute of Theoretical Physics, University of Santa Barbara, CA."
+    url: "https://www.kitp.ucsb.edu/"
+publications:
+  - title: "Data integration uncovers the metabolic bases of phenotypic variation in yeast"
+    authors: "Petrizzelli M., de Vienne D., Nidelet T., Noûs C. and Dillmann C"
+    publisher: "PLOS Computational Biology"
+    issn: "issn:17(7): e1009157"
+    doi: "doi:10.1371/journal.pcbi.1009157"
+    releaseDate: "2021"
+    website: "https://doi.org/10.1371/journal.pcbi.1009157"
+  - title: "The multilayer community structure of medulloblastoma"
+    authors: "Núñez-Carpintero I., Petrizzelli M., Zinovyev A., Cirillo D. and Valencia A."
+    publisher: "iScience"
+    issn: "issn:2589-0042"
+    doi: "doi:10.1016/j.isci.2021.102365"
+    releaseDate: "2021"
+    website: "https://www.sciencedirect.com/science/article/pii/S2589004221003333"
+  - title: "Systems Biology Analysis for Ewing Sarcoma"
+    authors: "Petrizzelli M., Merlevede J. and Zinovyev A"
+    publisher: "Springer US"
+    issn: "isbn:978-1-0716-1020-6"
+    doi: "doi:10.1007/978-1-0716-1020-6_23"
+    releaseDate: "2021"
+    website: "https://doi.org/10.1007/978-1-0716-1020-6_23"
+  - title: "Probabilities of Multilocus Genotypes in SIB Recombinant Inbred Lines"
+    authors: "Jebreen K., Petrizzelli M. and Martin O.C"
+    publisher: "Frontiers in Genetics"
+    issn: "issn:1664-8021"
+    doi: "doi:10.3389/fgene.2019.00833"
+    releaseDate: "2019"
+    website: "https://www.frontiersin.org/article/10.3389/fgene.2019.00833"
+  - title: "Decoupling the Variances of Heterosis and Inbreeding Effects Is Evidenced in Yeast’s Life-History and Proteomic Traits"
+    authors: "Petrizzelli M., de Vienne D. and Dillmann C"
+    publisher: "Genetics"
+    issn: "issn:0016-6731, 1943-2631"
+    doi: "doi:10.1534/genetics.118.301635"
+    releaseDate: "2019"
+    website: "https://www.genetics.org/content/211/2/741"
+  - title: "Mathematical modelling and integration of complex biological data : analysis of the heterosis phenomenon in yeast"
+    authors: "Petrizzelli M"
+    publisher: "PhD thesis"
+    issn: ""
+    doi: "2019SACLS204"
+    releaseDate: "2019"
+    website: "http://www.theses.fr/2019SACLS204"
+    
+    
+skills:
+  - name: "Web Development"
+    level: "Master"
+    keywords:
+      - "HTML"
+      - "CSS"
+      - "Javascript"
+  - name: "Compression"
+    level: "Master"
+    keywords:
+      - "Mpeg"
+      - "MP4"
+      - "GIF"
+languages:
+  - language: "Italian"
+    fluency: "Native speaker"
+  - language: "Spanish"
+    fluency: "Native speaker"
+  - language: "English"
+    fluency: "Professional"
+  - language: "French"
+    fluency: "Professional"
+interests:
+  - name: "Wildlife"
+    keywords:
+      - "Ferrets"
+      - "Unicorns"
+references:
+  - name: "Erlich Bachman"
+    reference: >
+      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+      Company proved that he will be a valuable addition to any company.
