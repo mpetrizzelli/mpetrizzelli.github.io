@@ -24,13 +24,7 @@ group :jekyll_plugins do
     gem "jekyll-seo-tag"
     gem "jekyll-titles-from-headings"
     gem "jekyll-include-cache"
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
     gem "kramdown-parser-gfm"
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 end
 group :other_plugins do
     gem 'httparty'
