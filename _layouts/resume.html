@@ -67,15 +67,7 @@ layout: default
                 <a class="org p-org h-card " href={{ job.website }}>{{ job.company }}</a>
             </h1>
             </header>
-<<<<<<< Updated upstream
             <a class="post-content" style= "font-size:13px">{{ job.summary | markdownify}}</a>
-=======
-<<<<<<< Updated upstream
-            <a class="post-content" style= "font-size:13px">{{ job.summary | markdownify}}</a>
-=======
-            <a class="post-content" style= "font-size:13px">{{ job.summary | kramdown}}</a>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
             <p class="post-content" style="margin-bottom: 2em; font-size:13px"> <a><b> Keywords: </b></a><a>{% for highlight in job.highlights %}{{highlight}} {% endfor %}</a></p>{% endfor %}
     </div>
     </section>
@@ -97,15 +89,7 @@ layout: default
                     <a "org p-org h-card " property="name" href={{ edu.url }}> {{edu.institution}} </a>
                 </h1>
                 </header>
-<<<<<<< Updated upstream
                 <a class="post-content">{{ edu.note | markdownify}}</a>
-=======
-<<<<<<< Updated upstream
-                <a class="post-content">{{ edu.note | markdownify}}</a>
-=======
-                <a class="post-content">{{ edu.note | kramdown}}</a>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
                 <a class="post-content" style="font-style:italic;">{{ edu.thesis}}</a>
                 <div class="post-content" style="nowrap">Mentor/s: <a style="font-weight:bold;">{{ edu.supervisor}}</a></div><br>
                 {% endfor %}

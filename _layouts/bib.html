@@ -56,10 +56,6 @@
                   {%- endif -%}
                 {%- endif -%}
               {%- else -%}
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
                 {% if author_is_self -%}
                   and <em>{{author.last}}, {{author.first}}</em>
                 {% else -%}
@@ -67,15 +63,6 @@
                     and <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>
                   {% else -%}
                     and {{author.last}}, {{author.first}}
-<<<<<<< Updated upstream
-=======
-=======
-                {% if author_is_self -%} and <em>{{author.last}}, {{author.first}}</em>
-                {% else -%}
-                  {%- if coauthor_url -%} and <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>
-                  {% else -%} and {{author.last}}, {{author.first}}
->>>>>>> Stashed changes
->>>>>>> Stashed changes
                   {%- endif -%}
                 {%- endif -%}
               {%- endunless -%}
