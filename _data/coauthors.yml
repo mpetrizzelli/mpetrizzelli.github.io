@@ -1,18 +1,43 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"de-Vienne":
+  - firstname: ["Dominique", "D."]
+  - url: http://moulon.inrae.fr/personnes/ddevienne/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Dillmann":
+  - firstname: ["Christine", "C."]
+  - url: http://moulon.inrae.fr/personnes/cdillmann/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Zinovyev":
+  - firstname: ["Andrei", "A."]
+  - url: https://auranic.github.io/
+    
+"Merlevede":
+  - firstname: ["Jane", "J."]
+  - url: https://fr.linkedin.com/in/jane-merlevede-4796b842
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Jebreen":
+  - firstname: ["Kamel", "K."]
+  - url: https://fr.linkedin.com/in/kamel-jebreen-59b438188
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Martin":
+  - firstname: ["Olivier", "O."]
+  - url: http://moulon.inra.fr/~omartin/
+
+"Noûs":
+  - firstname: ["Camille", "C."]
+  - url: https://www.cogitamus.fr/camille.html
+
+"Nidelet":
+  - firstname: ["Thibault", "T."]
+  - url: https://www.linkedin.com/in/thibault-nidelet-3a607587/?originalSubdomain=fr
+
+"Nùñez-Carpintero":
+  - firstname: ["Iker", "I."]
+  - url: https://www.bsc.es/nunez-carpintero-iker
+
+"Cirillo":
+  - firstname: ["Davide", "D."]
+  - url: https://www.bsc.es/cirillo-davide
+
+"Valencia":
+  - firstname: ["Alfonso", "A."]
+  - url: https://www.bsc.es/valencia-alfonso

@@ -1,12 +1,27 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: 
 nav: true
 nav_order: 2
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+I have started my teaching activities in 2016 in the department of Physical Mesures at the [IUT d'Orsay](https://www.iut-orsay.universite-paris-saclay.fr/). Subsequently, I obtained a post as Temporary Lecturer and Research Assistant at the [IUT of Paris Descartes](https://iutparis-seine.u-paris.fr/). Nowadays, I am engaged as assistant professor at the [Université de Paris](https://u-paris.fr/). 
 
-Organize your courses by years, topics, or universities, however you like!
+## Courses
+<center>
+<table class="center">
+<thead>
+<tr style="text-align:center"><th style="text-align:left">Teaching module</th><th>Institute</th><th>Level of Education</th><th>Years</th></tr>
+</thead>
+<tbody style="text-align:center">
+<tr><td style="text-align:left">Mathematical logic </td><td>IUT de Paris</td><td>BAC+2 </td><td>2018-2022</td></tr>
+<tr><td style="text-align:left">Probability and Applied Statistics </td><td>IUT de Paris</td><td>BAC+2 </td><td>2018-2022</td></tr>
+<tr><td style="text-align:left">Mathematics and Applied Statistics </td><td>IUT de Paris</td><td>BAC+1 </td><td>2018-2022</td></tr>
+<tr><td style= "text-align:left">Trigonometry, Calculus, Complex Numbers </td><td>IUT d'Orsay</td><td>BAC+1</td><td>2016-2018</td></tr>
+<tr><td style="text-align:left">Informatics and algorithms (python)</td><td>IUT d'Orsay</td><td>BAC+1</td><td>2016-2018</td></tr>
+<tr><td style="text-align:left">Data processing and handling </td><td>IUT d'Orsay</td><td>BAC+1</td><td>2016-2018</td></tr>
+</tbody>
+</table>
+</center>
