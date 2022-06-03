@@ -17,22 +17,22 @@ layout: default
         class="img-fluid z-dept-1 rounded"
         alt=page.profile.image -%}
    </div>
- <header class="post-header">
+    <header class="post-header">
     <h1 class="post-title">
          {% if site.title == "blank" -%}
          <span class="font-weight-bold">{{ site.first_name }}</span>
          {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
     </h1>
-</header>
+    </header>
 
-<br>
-<article>
-  <div class="clearfix">
-     <p class="h3 faded subline title p-job-title" property="jobTitle" style="margin : 0; padding-top:0;">{{ author.jobtitle }}
-     </p>
+    <br>
+    <article>
+        <div class="clearfix">
+            <p class="h3 faded subline title p-job-title" property="jobTitle" style="margin : 0; padding-top:0;">{{ author.jobtitle }}
+            </p>
      
-     <br>
-     <table>
+        <br>
+        <table style="table-layout: auto">
          <tbody>
          <tr>
              <td><i class="icon-location" title="Location"></i><a style="padding-left: 10px; padding-right: 10px" href="https://goo.gl/maps/p5i4MVuMPsiBBgU96">{{author.street}}, {{ author.zipcode}}, {{author.city}} - {{author.state}} </span></a></td>
