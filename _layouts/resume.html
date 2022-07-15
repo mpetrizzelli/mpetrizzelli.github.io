@@ -17,22 +17,22 @@ layout: default
         class="img-fluid z-dept-1 rounded"
         alt=page.profile.image -%}
    </div>
- <header class="post-header">
-    <h1 class="post-title">
+    <header class="post-header">
+    <h1 class="post-title" >
          {% if site.title == "blank" -%}
          <span class="font-weight-bold">{{ site.first_name }}</span>
          {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
     </h1>
-</header>
+    </header>
 
-<br>
-<article>
-  <div class="clearfix">
-     <p class="h3 faded subline title p-job-title" property="jobTitle" style="margin : 0; padding-top:0;">{{ author.jobtitle }}
-     </p>
+    <br>
+    <article>
+        <div class="clearfix">
+            <p class="h3 faded subline title p-job-title" property="jobTitle" style="margin : 0; padding-top:0;">{{ author.jobtitle }}
+            </p>
      
-     <br>
-     <table>
+        <br>
+        <table style="table-layout: auto">
          <tbody>
          <tr>
              <td><i class="icon-location" title="Location"></i><a style="padding-left: 10px; padding-right: 10px" href="https://goo.gl/maps/p5i4MVuMPsiBBgU96">{{author.street}}, {{ author.zipcode}}, {{author.city}} - {{author.state}} </span></a></td>
@@ -60,11 +60,11 @@ layout: default
             <section style="font-size:13px"></p>
             <header class="post-header">
             {% for job in resume.work %}
-            <h1 class="h5 hr-bottom" style="text-align:left;font-size:16px">
+            <h1 class="h5 hr-bottom" style="text-align:left;font-size:16px;">
                 {{ job.position }}
                 <span style="float:right;font-weight:normal; padding-right: 10px; color:gray; font-size:15px">({{ job.startDate }} - {{ job.endDate }})</span>
                 <br>
-                <a class="org p-org h-card " href={{ job.website }}>{{ job.company }}</a>
+            <a class="org p-org h-card" href={{ job.website }}>{{ job.company }}</a>
             </h1>
             </header>
             <a class="post-content" style= "font-size:13px">{{ job.summary | markdownify}}</a>
@@ -98,11 +98,11 @@ layout: default
     </div>
     <div class="column" style="width: 30%; padding-left: 30px; padding-right: 15px">
         <section class="npb">
-            <p id="languages" class="h4 hr-bottom"> Languages
+            <p id="languages" class="h4 hr-bottom" style="font-size:clamp(1rem, 1.3vw, 3rem) "> Languages
                 <span class="symbol icon-bubbles padding-left: 10px"></span>
                 <a href="#languages" class="permalink"></a>
             </p>
-            <dl class="skills">
+            <dl class="skills" style="font-size:clamp(0.7rem, 1.3vw, 0.9rem)">
             {% for language in resume.languages %}
                 <div class="tag">
                     {{language.language}}{% if language.fluency == "Native speaker" %}<a class="icon-star-full" style="float:right"></a><a class="icon-star-full" style="float:right"></a><a class="icon-star-full" style="float:right"></a><a class="icon-star-full" style="float:right"></a>
@@ -133,11 +133,11 @@ layout: default
         </section>
         <br>
         <section class="npb" aria-label="skills">
-            <p id="skills" class="h4 hr-bottom"> Skills <span class="symbol icon-wrench padding-left: 10px"></span>
+            <p id="skills" class="h4 hr-bottom" style="font-size:clamp(1rem, 1.3vw, 3rem)"> Skills <span class="symbol icon-wrench padding-left: 10px"></span>
                 <a href="#skills" class="permalink"></a>
             </p>
-            <dl class="skills">
-                <dt class="fl">Programming</dt>
+            <dl class="skills" style="font-size:clamp(0.7rem, 1.3vw, 0.9rem)">
+                <dt class="fl" style="font-size:clamp(0.7rem, 1.3vw, 1rem)">Programming</dt>
                     <div class="tag">R<a class="icon-star-full" style="float:right"></a>
                     <a class="icon-star-full" style="float:right"></a>
                     <a class="icon-star-full" style="float:right"></a>
@@ -158,21 +158,25 @@ layout: default
         </section>
         <br>
         <section class="npb">
-            <p id="interests" class="h4 hr-bottom"> Interests <span class="symbol icon-heart padding-left: 10px"></span>
+            <p id="interests" class="h4 hr-bottom" style="font-size:clamp(1rem, 1.3vw, 3rem)"> Interests <span class="symbol icon-heart padding-left: 10px"></span>
                 <a href="#interests" class="permalink"></a>
             </p>
-            <dl class="skills"><dt>Mathematics</dt>
-                        <div style="font-size:14px">Dimensionality reduction</div>
-                        <div style="font-size:14px">Machine learning</div>
-                        <div style="font-size:14px">Data-driven models</div>
-                        <div style="font-size:14px">Statistics</div>
+            <dl class="skills" style="font-size:clamp(0.7rem, 1.3vw, 1rem)">
+                <dt>Mathematics</dt>
+                <p class="text" style="font-size:clamp(0.7rem, 1.3vw, 0.9rem)">
+                    Dimensionality reduction <br>
+                    Machine learning <br>
+                    Data-driven models <br>
+                    Statistics</p>
             </dl>
-            <dl class="skills"><dt>Biology</dt>
-                        <div style="font-size:14px">Systems Biology</div>
-                        <div style="font-size:14px">Computational Biology</div>
-                        <div style="font-size:14px">Genetics</div>
-                        <div style="font-size:14px">Metabolism</div>
-                        <div style="font-size:14px">Cell development</div>
+            <dl class="skills" style="font-size:clamp(0.7rem, 1.3vw, 1rem)"><dt>Biology</dt>
+                        <p class="text" style="font-size:clamp(0.7rem, 1.3vw, 0.85rem)">
+                            Systems Biology <br>
+                            Computational Biology <br>
+                            Genetics <br>
+                            Metabolism <br>
+                            Cell development <br>
+                        </p>
             </dl>
         </section>
     </div>
@@ -210,6 +214,16 @@ layout: default
                     </a>
                 </li>
             {% endfor %}</ul>
+        <h2 id="publications" class="h3 hr-bottom" style="font-size:16px"> Project deliverables
+                <span class="symbol icon-checkmark"></span>
+        </h2>
+        <ul>{% for pjt in resume.projects %}
+            <li style="font-size:14px">
+                <a href={{ publication.website}} >
+                    <span class="faded">{{ pjt.authors}}</span>. <span class="h4 bc" style="font-size:13px">{{ pjt.title }}</span>. <span class="faded">{{pjt.issn}}, {{pjt.releaseDate}}. {{pjt.doi}}.</span>
+                </a>
+            </li>
+        {% endfor %}</ul>
         </section>
     </div>
 </section>
